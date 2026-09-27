@@ -1,0 +1,13 @@
+# Language detection rules
+
+Cargo.lock linguist-generated
+go.sum linguist-generated
+*.png binary
+
+*.gif binary
+public/* linguist-vendored
+* text=auto
+*.min.js linguist-generated
+*.astro linguist-detectable
+*.yaml linguist-detectable=false
+public/*.html linguist-vendored
